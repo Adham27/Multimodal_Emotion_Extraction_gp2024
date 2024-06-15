@@ -1,0 +1,34 @@
+@import "./variables";
+
+
+.login-high{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+text h2{
+    color: black;
+}
+.btn-log{
+    background-color: $primary;
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    color: $secondary;
+    border: 0.5px solid $secondary;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-log:hover{
+    background-color: $secondary;
+    border: 1.5px solid $secondary;
+    color: $primary;
+}
+
+.lotti-login{
+    width: 93%;
+    height: 85%;
+}

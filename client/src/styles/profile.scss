@@ -1,0 +1,38 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 78.2vh; // Full height of the viewport
+  background-color: #f0f2f5; // Optional: add a background color
+}
+
+.profile-card {
+  width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-header {
+  background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+  padding: 20px;
+  border-radius:25px;
+}
+
+.profile-content {
+  padding: 20px;
+}
+
+.social-icons {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profile-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}

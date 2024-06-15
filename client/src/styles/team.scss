@@ -1,0 +1,38 @@
+@import "./variables";
+
+.bg-team{
+    background-color: $secondary;
+    height: 100vh;
+}
+
+.bg-team p{
+
+    color: $primary;
+}
+
+
+.text-header{
+    color: $fourth !important;
+}
+
+.bg-team h4{  
+    color: $primary;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase !important;
+
+}
+
+.bg-team h3{  
+    color: $third;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase !important;
+
+}
+
+.postion-icons{
+    position: relative;
+    bottom: 13px;
+    right: 9px;
+}

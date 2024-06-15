@@ -1,0 +1,50 @@
+@import "./variables";
+
+.landing-hight h1{
+    color: $third;
+    font-weight: 600;
+}
+
+.landing-hight span{
+    font-weight: 800;
+    color: $secondary;
+}
+
+
+.style{
+    width: 100%;
+    height: 80%;
+}
+
+
+
+.h-welcome-auto{
+    padding: 16px;
+    height: 88vh;
+}
+
+.btn-outline-primary{
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    color: $secondary;
+    border: 0.5px solid $secondary;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: $secondary;
+    color: $primary ;
+    border: 0.5px solid $secondary;
+
+}
+
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show{
+    background-color: $secondary;
+    color: $primary ;
+    border: 0.5px solid $secondary;
+
+
+}
